@@ -14,7 +14,7 @@ var s=t.getSeconds();
 document.getElementById("timeShow").innerHTML =  "Now："+h+":"+m+":"+s;
    if(h==0){
 	document.getElementById("me").innerHTML = "Hey,try to go to bed.It's already morning."}
-   else if(h>21 || h<23 ){
+   else if(h>21&&h<23 ){
 	document.getElementById("me").innerHTML = "It's time to sleep now."}
    else{
 	document.getElementById("me").innerHTML = "Good day.Good luck."}
